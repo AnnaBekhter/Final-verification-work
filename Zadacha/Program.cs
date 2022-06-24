@@ -8,9 +8,9 @@ class HomeWork
 
     static void Main(string[] args)
     {
-        string[] arr1 = new string[4] { "64", "2", "Hello", "Kazan"};
+        string[] arr1 = new string[4] { "64", "2", "Hello", "Kazan" };
         string[] arr2 = new string[arr1.Length];
-         void ArrayWithIF(string[] arr1, string[] arr2)
+        void ArrayWithIF(string[] arr1, string[] arr2)
         {
             int count = 0;
             for (int i = 0; i < arr1.Length; i++)
@@ -22,7 +22,7 @@ class HomeWork
                 }
             }
         }
-         void PrintArray(string[] arr)
+        void PrintArray(string[] arr)
         {
             for (int i = 0; i < arr.Length; i++)
             {
@@ -30,3 +30,7 @@ class HomeWork
             }
             Console.WriteLine();
         }
+        ArrayWithIF(arr1, arr2);
+        PrintArray(arr2);
+    }
+}
